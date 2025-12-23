@@ -63,7 +63,6 @@ public class Book {
         this.available = true;
     }
 
-    @Override
     public String toString() {
         String status = available ? "Available" : "Borrowed";
         return "Book [ID=" + id + ", Title='" + title + "', Author='" + author + "', Year=" + year + ", Status=" + status + "]";
